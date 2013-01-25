@@ -1,16 +1,19 @@
+// "Send From Omnibox" Chrome extension
 // MIT Licensed
-// matt [at] nlts.co, 2012 
+// matt@nlts.co, 2012 
 
 // localstorage code from chromnibar extension source, MIT licensed, found at
 // http://code.google.com/p/chromnibar/
 
-// chrome.omnibox code modified from "omnix" omnibox example, which has the following copyright:
+// chrome.omnibox code modified from "omnix" omnibox example,
+// which came with the following license:
 // Copyright (c) 2012 The Chromium Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
+// Source URL:
 // http://developer.chrome.com/extensions/samples.html#be68e4d262d74d2457999fc402f5bf5e
 
-// sets the item in the localstorage
+// basic chrome localstorage interface
 var logging  = false;
 
   function setItem(key, value) {
@@ -75,7 +78,7 @@ chrome.omnibox.onInputEntered.addListener(
   function(text) {
     console.log('inputEntered: ' + text);
     address = text.substr(0,text.indexOf(' '));
-    // set a custom address
+    // save a custom email address shortcut
     if (address == "set") {
       message = text.substr(text.indexOf(' ')+1);
       key = message.substr(0,message.indexOf(' ')-1);
@@ -88,7 +91,7 @@ chrome.omnibox.onInputEntered.addListener(
       }
       var subject = "";
       var message = text.substr(text.indexOf(' ')+1);
-      // inputs subject if "sub .... ," exists in message
+      // creates subject if "sub ... ," exists in message
       if (message.substr(0,3) === "sub") {
         subject = message.substr(4,message.indexOf(',')-4);
         message = message.substr(message.indexOf(',')+2);
