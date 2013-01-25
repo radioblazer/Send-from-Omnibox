@@ -1,6 +1,6 @@
 {
   "name": "Send from Omnibox",
-  "description" : "Type "." in the address bar followed by an email address and message to compose an email using mailto.",
+  "description" : "Compose an email without leaving the page.",
   "version": "0.1",
   "background": {
     "scripts": ["background.js"]
