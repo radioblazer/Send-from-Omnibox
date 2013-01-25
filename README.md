@@ -5,6 +5,8 @@ Version 0.1
 
 Compose an email in Chrome's address bar.
 
+[Click here to install from the Chrome Web Store!](https://chrome.google.com/webstore/detail/send-from-omnibox/pfebpahfiklkbdgdacdcdojjejhpbkgc)
+
 ##Examples
 
 ```
@@ -12,7 +14,7 @@ Compose an email in Chrome's address bar.
 ```
 
 opens this window:
-![alt text](http://i.imgur.com/6VTcHTt.png "The pic is a 1905 panorama of SF after the earthquake.")
+![alt text](http://i.imgur.com/6VTcHTt.png "The pic is a 1906 panorama of SF after the earthquake.")
 
 ###Creating email shorcuts
 
@@ -34,6 +36,7 @@ Save m in localstorage for future use:
 
 ##Installation
 
+[Click here to install from the Chrome Web Store,](https://chrome.google.com/webstore/detail/send-from-omnibox/pfebpahfiklkbdgdacdcdojjejhpbkgc) or:
 - Put everything in a directory
 - Visit chrome://extensions
 - Check the "Developer mode" box at the top right
