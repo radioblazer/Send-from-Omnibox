@@ -37,8 +37,10 @@ Save m in localstorage for future use:
 ```
 
 ##Installation
+Currently, this extension works best with Gmail (see [bug](https://github.com/monikker/Send-from-Omnibox/issues/1)), so make sure you have Gmail set as the default in your Chrome mailto: settings (located at chrome://settings/handlers).
 
-[Click here to install from the Chrome Web Store,](https://chrome.google.com/webstore/detail/send-from-omnibox/pfebpahfiklkbdgdacdcdojjejhpbkgc) or:
+Then, [click here to install from the Chrome Web Store,](https://chrome.google.com/webstore/detail/send-from-omnibox/pfebpahfiklkbdgdacdcdojjejhpbkgc) or:
+
 - Put everything in a directory
 - Visit chrome://extensions
 - Check the "Developer mode" box at the top right
