@@ -47,6 +47,7 @@ Then, [click here to install from the Chrome Web Store,](https://chrome.google.c
 - Click the "Load unpacked extension..." button and select your directory
 
 ##Planned updates
+- Localstorage sync
 - Newline support
 - Rewrite using regexes
 - Message templates/shortcuts
