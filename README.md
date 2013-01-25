@@ -11,12 +11,16 @@ Works best when Gmail or other webmail is set as Chrome's mailto: handler (see [
 
 ##Examples
 
+Type "." followed by a space to start using the extension.
+
 ```
 . matt@nlts.co sub What's up?, I thought you'd enjoy this picture: http://bit.ly/6kEfZ0
 ```
 
 opens this window:
 ![alt text](http://i.imgur.com/6VTcHTt.png "The pic is a 1906 panorama of SF after the earthquake.")
+
+Note that you can then tab-tab-enter to send the message without having to use the mouse.
 
 ###Creating email shorcuts
 
