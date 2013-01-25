@@ -42,6 +42,13 @@ Save m in localstorage for future use:
 - Check the "Developer mode" box at the top right
 - Click the "Load unpacked extension..." button and select your directory
 
+##Planned updates
+- Newline support
+- Rewrite using regexes
+- Message templates/shortcuts
+- Allow changing of "from" address
+- Settings page
+
 ##MIT Licensed
 ```
 Copyright (c)2013 Matthew Townsend
