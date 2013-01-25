@@ -1,7 +1,7 @@
 {
-  "name": ".",
-  "description" : "To use, type '.' plus a search term into the Omnibox.",
-  "version": "1.1",
+  "name": "Send from Omnibox",
+  "description" : "Type "." in the address bar followed by an email address and message to compose an email using mailto.",
+  "version": "0.1",
   "background": {
     "scripts": ["background.js"]
   },
