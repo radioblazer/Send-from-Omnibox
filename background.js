@@ -2,9 +2,6 @@
 // MIT Licensed
 // matt@nlts.co, 2012 
 
-// localstorage code from chromnibar extension source, MIT licensed, found at
-// http://code.google.com/p/chromnibar/
-
 // chrome.omnibox code modified from "omnix" omnibox example,
 // which came with the following license:
 // Copyright (c) 2012 The Chromium Authors. All rights reserved.
@@ -12,59 +9,6 @@
 // found in the LICENSE file.
 // Source URL:
 // http://developer.chrome.com/extensions/samples.html#be68e4d262d74d2457999fc402f5bf5e
-
-// basic chrome localstorage interface
-var logging  = false;
-
-  function setItem(key, value) {
-      try {
-          log("Inside setItem:" + key + ":" + value);
-          window.localStorage.removeItem(key);
-          window.localStorage.setItem(key, value);
-      }catch(e) {
-          log("Error inside setItem");
-          log(e);
-      }
-      log("Return from setItem" + key + ":" +  value);
-  }
-  //Gets the item from local storage with the specified
-  //key...
-  function getItem(key) {
-      var value;
-      log('Get Item:' + key);
-      try {
-          value = window.localStorage.getItem(key);
-      }catch(e) {
-          log("Error inside getItem() for key:" + key);
-          log(e);
-          value = "null";
-      }
-      log("Returning value: " + value);
-      return value;
-  }
-  //Clears all the key value pairs in the local storage
-      function clearStrg() {
-      log('about to clear local storage');
-      window.localStorage.clear();
-      log('cleared');
-  }
-
-  function log(txt) {
-      if(logging) {
-          console.log(txt);
-      }
-  }
-
-  function removeItem(key) {
-      try {
-          log("Inside setItem:" + key + ":" + value);
-          window.localStorage.removeItem(key);
-      }catch(e) {
-          log("Error inside removeItem");
-          log(e);
-      }
-      log("Return from removeItem" + key + ":" +  value);
-  }
 
 
 chrome.omnibox.onInputChanged.addListener(
@@ -107,3 +51,57 @@ chrome.omnibox.onInputEntered.addListener(
       chrome.windows.create({url: "mailto:"+address+subject+message, width: 760, height: 600});
   }
   });
+  
+// localstorage code from chromnibar extension source, MIT licensed, found at
+// http://code.google.com/p/chromnibar/
+var logging  = false;
+
+  function setItem(key, value) {
+      try {
+          log("Inside setItem:" + key + ":" + value);
+          window.localStorage.removeItem(key);
+          window.localStorage.setItem(key, value);
+      }catch(e) {
+          log("Error inside setItem");
+          log(e);
+      }
+      log("Return from setItem" + key + ":" +  value);
+  }
+  // Gets the item from local storage with the specified key...
+  function getItem(key) {
+      var value;
+      log('Get Item:' + key);
+      try {
+          value = window.localStorage.getItem(key);
+      }catch(e) {
+          log("Error inside getItem() for key:" + key);
+          log(e);
+          value = "null";
+      }
+      log("Returning value: " + value);
+      return value;
+  }
+  // Clears all the key value pairs in the local storage
+      function clearStrg() {
+      log('about to clear local storage');
+      window.localStorage.clear();
+      log('cleared');
+  }
+
+  function log(txt) {
+      if(logging) {
+          console.log(txt);
+      }
+  }
+
+  function removeItem(key) {
+      try {
+          log("Inside setItem:" + key + ":" + value);
+          window.localStorage.removeItem(key);
+      }catch(e) {
+          log("Error inside removeItem");
+          log(e);
+      }
+      log("Return from removeItem" + key + ":" +  value);
+  }
+
