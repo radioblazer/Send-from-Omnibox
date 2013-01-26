@@ -5,7 +5,7 @@ Version 0.1
 
 Compose an email in Chrome's address bar.
 
-Works best when Gmail or other webmail is set as Chrome's mailto: handler (see [bug](https://github.com/monikker/Send-from-Omnibox/issues/1)).
+Works best when Gmail or other webmail is set as Chrome's mailto: handler (see [bug](https://github.com/nlts/Send-from-Omnibox/issues/1)).
 
 [Click here to install from the Chrome Web Store!](https://chrome.google.com/webstore/detail/send-from-omnibox/pfebpahfiklkbdgdacdcdojjejhpbkgc)
 
@@ -41,7 +41,7 @@ Save m in localstorage for future use:
 ```
 
 ##Installation
-Currently, this extension works best with Gmail (see [bug](https://github.com/monikker/Send-from-Omnibox/issues/1)), so make sure you have Gmail set as the default in your Chrome mailto: settings (located at chrome://settings/handlers).
+Currently, this extension works best with Gmail (see [bug](https://github.com/nlts/Send-from-Omnibox/issues/1)), so make sure you have Gmail set as the default in your Chrome mailto: settings (located at chrome://settings/handlers).
 
 Then, [click here to install from the Chrome Web Store,](https://chrome.google.com/webstore/detail/send-from-omnibox/pfebpahfiklkbdgdacdcdojjejhpbkgc) or:
 
