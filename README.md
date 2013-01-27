@@ -13,6 +13,8 @@ Works best when Gmail or other webmail is set as Chrome's mailto: handler (see [
 
 Type "." followed by a space to start using the extension.
 
+Hint: ```alt+d``` selects the address bar, or you can just do ```ctrl+t``` and start typing.
+
 ```
 . matt@nlts.co sub What's up?, I thought you'd enjoy this picture: http://bit.ly/6kEfZ0
 ```
