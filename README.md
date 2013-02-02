@@ -13,7 +13,7 @@ Works best when Gmail or other webmail is set as Chrome's mailto: handler (see [
 
 Type "." followed by a space to start using the extension.
 
-Hint: ```alt+d``` selects the address bar, or you can just do ```ctrl+t``` and start typing. Also, ```tab-enter``` lets you send the composed message without touching the keyboard.
+Hint: ```alt+d``` selects the address bar, or you can just hit ```ctrl+t``` and start typing. Also, ```tab-enter``` lets you send the composed message without touching the keyboard.
 
 ```
 . matt@nlts.co sub What's up?, I thought you'd enjoy this picture: http://bit.ly/6kEfZ0
