@@ -17,7 +17,7 @@ chrome.omnibox.onInputChanged.addListener(
   });
 
 
-// This event is fired with the user accepts the input in the omnibox.
+// This event is fired when the user accepts the input in the omnibox.
 chrome.omnibox.onInputEntered.addListener(
   function(text) {
     console.log('inputEntered: ' + text);
